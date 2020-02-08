@@ -1,0 +1,198 @@
+/* Normal desktop :1200px. */
+
+@media (min-width: 1200px) and (max-width: 1500px) {}
+
+
+/* Normal desktop :992px. */
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .slider-text h2 {
+        font-size: 45px;
+    }
+    .testimonial-slider .owl-nav div {
+    left: 55%;
+}
+    .testimonial-slider .owl-nav div.owl-prev {
+    left: 37%;
+}
+}
+
+
+/* Tablet desktop :768px. */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .slider-text {
+        top: -230px;
+    }
+    .slider-text h2 {
+        font-size: 50px;
+        line-height: 65px;
+    }
+    .btn-area {
+        left: 24%;
+    }
+    .about-content {
+        margin-top: 0px;
+    }
+    .about-content h2 {
+        font-size: 42px;
+        line-height: 47px;
+    }
+    .about-content p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .about-area {
+        padding-bottom: 90px;
+    }
+    .contact-area {
+        padding-top: 24px;
+    }
+    .coustomer-heading h1 {
+        font-size: 35px;
+        line-height: 48px;
+    }
+    .client,
+    .client1,
+    .client2,
+    .client3,
+    .client4 {
+        width: 3.9em;
+        height: 3.9em;
+    }
+    .testimonial-slider .owl-nav div {
+        left: 50%;
+    }
+    .testimonial-slider .owl-nav div.owl-prev {
+        left: 36%;
+    }
+    .promo-slider .owl-nav div {
+        left: 71%;
+    }
+}
+
+
+/* small mobile :320px. */
+
+@media (max-width: 767px) {
+    nav {
+        display: none;
+    }
+    .slicknav_menu {
+        background: url(../images/bg.png);
+        padding: 5px;
+        position: fixed;
+        width: 100%;
+        z-index: 1999;
+        display: block;
+    }
+    .slicknav_nav {
+        text-align: center;
+    }
+    .slicknav_btn {
+        background: url(../images/bg.png);
+    }
+    .slider-text h2 {
+        font-size: 35px;
+        line-height: 50px;
+    }
+    .slider-text {
+        top: -245px;
+    }
+    .slider-height {
+        min-height: 680px;
+    }
+    .slider-text p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .btn-area {
+        left: 22px;
+    }
+    a.border-btn {
+        padding: 9px 28px;
+        font-size: 10px;
+    }
+    a.box-btn {
+        /*padding: -1px 35px;*/
+        font-size: 10px;
+    }
+    .about-area {
+        padding-top: 0px;
+    }
+    .obj-height {
+        height: 0px;
+    }
+    .obj-img {
+        bottom: 10px;
+        position: absolute;
+        right: 0px;
+    }
+    .about-content h2,
+    .section-title h1 {
+        font-size: 34px;
+        line-height: 45px;
+    }
+    .client1,
+    .client,
+    .client2,
+    .client3,
+    .client4 {
+        width: 5em;
+        height: 5em;
+    }
+    .coustomer-heading h1 {
+        font-size: 35px;
+        line-height: 49px;
+    }
+    .cicle-img {
+        position: relative;
+    }
+    .testimonial-slider .owl-nav div.owl-prev {
+        left: 5%;
+    }
+    .testimonial-slider .owl-nav div {
+        left: 35%;
+        bottom: 18%;
+    }
+    .testimonial-slider .owl-nav div.owl-next {
+        bottom: 18%;
+    }
+    .contact-content h2 {
+        font-size: 24px;
+        line-height: 40px;
+        margin-bottom: 10px;
+    }
+    input[type="email"] {
+        padding: 13px 25px 13px 13px;
+    }
+    .box-btn.box-btn-effect.wow.fadeInRight {
+        padding: 10px 70px;
+        margin-left: 88px;
+        margin-top: 10px;
+    }
+    .client-area {
+        padding-top: 50px;
+    }
+    .contact-area {
+        padding-top: 0;
+    }
+    .shape {
+        display: none;
+    }
+    .orbit {
+        animation-name: none;
+    }
+    .promo-slider .owl-nav div {
+        left: 61%;
+    }
+}
+
+
+/* Large Mobile :480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .container {
+        width: 450px
+    }
+}
